@@ -1,0 +1,117 @@
+html, body {
+  height: 100%;
+}
+body{
+  font-family: 'Aldrich', sans-serif;
+}
+.span-input{
+  width: 10em;
+}
+
+.span-persen{
+  width: 15em;
+}
+
+.selected{
+  background-color: yellow;
+}
+.table-nilai input{
+  padding-left: 0.5em;
+}
+
+.swal-overlay {
+  background-color: rgba(32, 34, 34, 0.75);
+}
+.swal-button--cancel {
+  background-color: #15e45b;
+}
+.swal-text {
+  background-color: #FEFAE3;
+  padding: 17px;
+  border: 1px solid #F0E1A1;
+  display: block;
+  margin: 22px;
+  text-align: center;
+  color: #fc0606;
+  font-size: 24px;
+}
+.swal-content span{
+  color: red;
+}
+.tombol-hps{
+  margin-left: 1em;
+}
+.judul-hps{
+  color: red;
+}
+.psn-warning{
+  background-color: #FEFAE3;
+  padding: 17px;
+  border: 1px solid #F0E1A1;
+  display: block;
+  margin: 22px;
+  text-align: center;
+  color: rgb(208, 54, 20);
+  font-weight: bold;
+  font-style: italic;
+}
+.wrap {
+  min-height: 100%;
+}
+
+.maen {
+  overflow:auto;
+  min-height: 40em;
+}
+
+.footer-warpper {
+  position: relative;
+  margin-top: 0px; /* negative value of footer height */
+  clear:both;
+  padding-top:20px;
+  background-color: #361101;
+  color: white;
+}
+.middle-footer{
+  padding-top: 1em;
+}
+.isi{
+  padding-left: 11em;
+}
+.middle-footer span{
+  color: green;
+}
+.top-footer{
+  height: 2em;
+  background-color: black;
+}
+.bottom-footer{
+  padding: 1em;
+  background-color: black;
+}
+.bottom-footer p{
+  margin: auto;
+}
+.navbar-spk{
+  background-color: #361101 !important;
+}
+.logo{
+  color : white !important;
+}
+.keluar{
+  color: black !important;
+}
+.aww{
+  background-color: white;
+}
+@media screen and (max-width: 480px) {
+  .isi{
+    padding-left: 2em;
+  }
+  .judul-spk{
+    display:none;
+  }
+  .tombol-atas{
+    margin-bottom: 0.5em;
+  }
+}
